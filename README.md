@@ -1,1 +1,0 @@
-# Sorting_and_Searching_Algorithm_C
