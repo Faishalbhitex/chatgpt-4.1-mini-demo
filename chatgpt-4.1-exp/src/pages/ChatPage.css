@@ -1,0 +1,37 @@
+/* src/pages/ChatPage.css */
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Tinggi penuh layar */
+  max-width: 700px; /* Batasi lebar agar tidak terlalu lebar di desktop */
+  margin: 0 auto; /* Tengahkan */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chat-messages {
+  flex-grow: 1; /* Ambil sisa ruang */
+  overflow-y: auto; /* Scroll jika pesan banyak */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+   background-color: #e5ddd5; /* Warna latar mirip WA/Telegram */
+}
+
+.loading-indicator, .error-message {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto; /* Tengahkan */
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.loading-indicator {
+  color: #555;
+}
+
+.error-message {
+  color: #D8000C; /* Merah untuk error */
+  background-color: #FFD2D2; /* Latar merah muda */
+  border: 1px solid #D8000C;
+}

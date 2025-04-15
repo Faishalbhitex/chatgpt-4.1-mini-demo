@@ -1,0 +1,28 @@
+/* src/components/ChatMessage.css */
+.message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  max-width: 80%;
+  word-wrap: break-word; /* Agar teks panjang tidak keluar kotak */
+}
+
+.message.user {
+  background-color: #dcf8c6; /* Warna hijau muda untuk user */
+  margin-left: auto; /* Rata kanan */
+  text-align: right;
+}
+
+.message.assistant {
+  background-color: #f1f0f0; /* Warna abu-abu muda untuk AI */
+  margin-right: auto; /* Rata kiri */
+  text-align: left;
+}
+
+.message .role {
+  font-weight: bold;
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 3px;
+  color: #555;
+}

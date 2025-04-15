@@ -1,0 +1,19 @@
+/* src/styles/main.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4; /* Warna latar global sedikit abu-abu */
+}
+
+* {
+    box-sizing: border-box; /* Pastikan padding dan border masuk dalam ukuran elemen */
+}
+
+/* Hapus App.css jika tidak digunakan atau gabungkan stylenya ke sini */
+.App {
+   /* Jika perlu style khusus untuk container App */
+}
